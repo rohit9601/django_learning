@@ -1,0 +1,15 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Welcome to relative Page</h1>
+<a href="{% url 'basic_app:other' %}">The other page</a><! basic_app is coming from the variable defined in urls.py of app->
+<a href="{% url 'admin:index' %}">The admin page</a>
+<a href="{% url 'index' %}">The index page</a>
+</html>
+
